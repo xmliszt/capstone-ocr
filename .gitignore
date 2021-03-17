@@ -4,6 +4,7 @@ __pycache__/
 *$py.class
 .vscode
 /img
+output/
 
 # C extensions
 *.so
