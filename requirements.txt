@@ -2,3 +2,4 @@ pdf2image==1.14.0
 Pillow==8.1.2
 pyocr==0.8
 yapf==0.31.0
+PyMuPDF==1.18.9
