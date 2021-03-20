@@ -1,4 +1,5 @@
-import sys, os
+import sys
+import os
 from PIL import Image
 
 from src.pdf_handler import get_images
@@ -15,8 +16,7 @@ parser.add_argument(
     '-m',
     default=1,
     type=int,
-    help=
-    "Select mode of operation, default is 1. 1: Extract and return pure text from given image. 2: Extract and return list of word boxes and their positions in pixels from a given image. 3: Extract and return a list of lines and their positions in pixels from a given image."
+    help="Select mode of operation, default is 1. 1: Extract and return pure text from given image. 2: Extract and return list of word boxes and their positions in pixels from a given image. 3: Extract and return a list of lines and their positions in pixels from a given image."
 )
 parser.add_argument('--pdf',
                     default=False,
